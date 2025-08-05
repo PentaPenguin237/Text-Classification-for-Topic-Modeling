@@ -3,6 +3,36 @@
 ##
 ## Get latest from https://github.com/github/gitignore/blob/main/VisualStudio.gitignore
 
+# Python virtual environment
+venv/
+/venv/
+__pycache__/
+*.pyc
+
+# Scikit-learn and NLTK data directories
+# These are downloaded automatically and don't need to be in the repo
+scikit_learn_data/
+nltk_data/
+
+# IDE and editor specific files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Output files (like saved plots or data files)
+*.png
+*.jpg
+*.csv
+*.json
+
 # User-specific files
 *.rsuser
 *.suo
